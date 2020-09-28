@@ -1,8 +1,8 @@
 {
-  "name": "nodejs-shopping-cart",
+  "name": "AkgecCanteen",
   "version": "1.0.0",
-  "author": "George Tsopouridis",
-  "email": "gtsopour@gmail.com",
+  "author": "Avinesh Gupta",
+  "email": "avineshgupta999@gmail.com",
   "private": false,
   "scripts": {
     "start": "node ./bin/www",

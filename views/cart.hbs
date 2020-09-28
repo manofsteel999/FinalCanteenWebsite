@@ -2,7 +2,7 @@
         <div class="container">
 
 
-<h1 style="margin-top:1rem" >{{title}}</h1>
+<h1 class="selecting" style="margin-top:1.6rem" >{{title}}</h1>
 {{# if products }}
     <div  class="cart page">
         <ul class="list-group">
@@ -19,7 +19,7 @@
                     {{ this.price }}  $
                 </div>
                 <div class="col-xs-2 text-right">
-                    <h3 href="/remove/{{this.item.id}}" class="btn btn-default"></i> Remove</h3>
+                    <a href="/remove/{{this.item.id}}" class="btn btn-default"></i> Remove</a>
                 </div>
             </li>
             {{/each}}
