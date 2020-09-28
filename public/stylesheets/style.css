@@ -1,0 +1,226 @@
+body {
+  padding: 0px;
+  font: 16px 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #00B7FF;
+}
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.dropdown-menu .cart {
+  min-width: 250px;
+  padding: 15px 25px 0;
+}
+
+.dropdown-menu .cart .row > div {
+  padding: 0 0 10px 0;
+}
+
+.dropdown-menu .cart .totalPrice{
+  font-size: 120%;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.cart.page {
+  padding: 25px 0;
+}
+
+
+
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+#mainNavbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 3px;
+  padding: 20px 0;
+}
+
+
+#mainNavbar {
+    padding-top: 100px;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  margin-left: 1rem;
+    color: white;
+    font-size: 13px;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EED62B;
+}
+
+
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    transition: all 0.5s;
+}
+
+#mainNavbar a{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px 8px 10px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    outline: none;
+}
+#mainNavbar + a {
+   font-size: 28px;
+   margin: 0;
+  
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+
+}
+ i{
+  color: #EED62B;
+  padding-right: 1rem;
+}
+#avinesh img {
+  height: -webkit-fill-available;
+}
+
+#avinesh h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+#lastFooter {
+  background: #000;
+    padding: 1rem 0 30px 0;
+    color: #eee;
+    font-size: 1.1rem;
+
+}
+#lastFooter > div{
+  height:2rem;
+  font-size: 1rem;
+}
+.page-footer{
+  background-color:#111;
+  margin-bottom:0px
+  
+}
+.carousel-caption{
+  top: 50%;
+transform: translateY(-50%);
+bottom: initial;
+}
+.carousel-item{
+  -webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+carousel-caption + h1{
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+
+}
+#Category{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+#bottom-icons{
+  margin-bottom: 0px;
+  padding-bottom: 1.2rem;
+}
+div.menu-jumbo h1  {
+  
+  font-size: 3rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-left: 0px;
+}
+.menu-item img{
+  width: 100px;
+    border-radius: 50%;
+}
+.menu-item h5{
+  font-size: 1.3rem;
+  font-weight: 600 !important ;
+}
+.menu-item.media-body p{
+  font-weight: 300;
+}
+.menu-item h6{
+  color: #EED62B !important ;
+  font-weight: 500 ;
+
+}
+.ftco-tab-nav li a{
+  background: none !important;
+    text-transform: uppercase;
+    color: #EED62B !important;
+    font-size: 1rem ;
+    letter-spacing: .2em;
+}
+.ftco-tab-nav li{
+  margin: 0.8rem !important;
+  background-color: #000;
+  
+
+}
+@media only screen and (min-width:850px){
+.menu-jumbo{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+}
+.text-center{
+  text-align: center !important;
+}
+
+
+.menu-item{
+  margin: 2rem;
+}
+div.cart{
+  margin-right:5rem;
+}
+#mainNavbar a.Special{
+  padding-right: 0px;
+}
+#circle{
+  margin-left: 0.2rem;
+  margin-right: 0.9rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 4px solid #EED62B;
+  border-radius: 50% !important;
+}
+div.regen{
+ margin: auto ;
+ margin-top: 5rem;
+ margin-bottom: 4rem;
+}
+
+div.laster{
+  position: relative;
+  top:1.8rem;
+  left: 1rem ;
+}

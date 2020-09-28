@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Salted Fried Chicken",
+    "description": "Salted Fried Chicken are <span class=\"label label-info\">35.5 $ each</span>",
+    "price": 35.50
+  },
+  {
+    "id": 2,
+    "title": "Italian Sauce Mushroom",
+    "description": "Italian Sauce Mushroom are <span class=\"label label-info\">24.5 $ each</span>",
+    "price": 24.50
+  },
+  {
+    "id": 3,
+    "title": "Fried Potato &Garlic",
+    "description": " Fried Potato & Garlic are <span class=\"label label-info\">14.5 $ each</span>",
+    "price": 14.50
+  },
+  {
+    "id": 4,
+    "title": "Burgers",
+    "description": "Burgers are <span class=\"label label-info\">30 $ each</span>, but are <span class=\"label label-warning\">available as 3 for the price of 2</span>",
+    "price": 30
+  }
+]
