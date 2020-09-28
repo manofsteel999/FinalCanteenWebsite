@@ -6,7 +6,7 @@ var passport=require('passport');
 var Cart = require('../models/cart');
 var products = JSON.parse(fs.readFileSync('./data/products.json', 'utf8'));
 var User = require("../models/user")
-router.get('/', function (req, res, next) {
+router.get('/landing', function (req, res, next) {
   var productId = products && products[0].id;
 
   res.render('index', 
@@ -17,7 +17,7 @@ router.get('/', function (req, res, next) {
   );
 });
 
-router.get('/landing', function(req, res) {
+router.get('/', function(req, res) {
   res.render('landing');
 });
 
@@ -29,6 +29,7 @@ router.get('/csit', function(req, res) {
 });
 
 
+
 router.get('/add/:id', function(req, res, next) {
 
   var productId = req.params.id;
@@ -38,7 +39,7 @@ router.get('/add/:id', function(req, res, next) {
   });
   cart.add(product[0], productId);
   req.session.cart = cart;
-  res.redirect('/');
+  res.render('landing');
   inline();
 });
 
@@ -85,7 +86,7 @@ router.post('/user/signup', function(req,res){
       return res.render('user/signup');
     }
     passport.authenticate('local')(req,res,function() {
-      res.redirect('/');
+      res.render('/user/profile');
     })
   });
 });

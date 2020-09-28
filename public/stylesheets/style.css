@@ -236,3 +236,22 @@ a.button3{
   position: relative;
   bottom: 2.3rem;
 }
+
+
+
+
+button.orderbtn{
+  width: 20%;
+  background-color: #212529;
+  border-radius: 0.5rem !important;
+  color: #EED62B;
+  margin-bottom: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+
+
+
+
+
+
